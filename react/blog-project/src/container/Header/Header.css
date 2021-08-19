@@ -1,0 +1,7 @@
+.header {
+    position: sticky;
+    top: 0px;
+    background-color: #052606;
+    font-weight: 400;
+    font-size: 16px;
+}

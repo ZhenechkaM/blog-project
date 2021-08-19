@@ -1,0 +1,16 @@
+.menu {
+    overflow: scroll;
+
+    height: 100%;
+}
+.menu a {
+    display: block;
+    padding: 15px 0;
+    border: 4px solid #052606;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+.menu a:hover {
+    color: #58b32b;
+    border-bottom: 4px solid rgb(88, 179, 43);
+}

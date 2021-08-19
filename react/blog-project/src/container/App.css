@@ -1,0 +1,19 @@
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.padding-top-bottom {
+    padding: 30px 0;
+}
+.padding-left-right {
+    padding: 0 20px;
+}
+.margin-top-bottom {
+    margin: 20px 0;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+}

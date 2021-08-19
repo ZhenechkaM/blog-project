@@ -1,0 +1,23 @@
+.buy_now button {
+    background-color: rgb(247, 247, 247);
+    width: 108px;
+    height: 43px;
+    color: rgb(116, 116, 116);
+    border: 1px solid #052606;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+.buy_now {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+@media (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .col-xs-hidden {
+        display: none;
+    }
+}

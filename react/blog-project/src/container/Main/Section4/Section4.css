@@ -1,0 +1,21 @@
+h1 {
+    color: #409843;
+    font-weight: bold;
+    font-family: 'Merriweather', Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+}
+p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+.padding-top-bottom {
+    padding: 30px 0;
+}
+.section4 img {
+    width: 379px;
+    height: 296px;
+}

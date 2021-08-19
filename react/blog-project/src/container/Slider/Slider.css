@@ -1,0 +1,68 @@
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.padding-top-bottom {
+    padding: 30px 0;
+}
+.slider {
+    background: url('../pictures/wood.jpeg') no-repeat center;
+    background-size: 100%;
+}
+.slider h1 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding: 15px 0;
+}
+.slider h6 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 6px;
+    text-align: center;
+}
+.slider button {
+    font-size: 5px;
+    font-weight: 300;
+    margin: 30px 0;
+    color: white;
+    background-color: rgb(88, 179, 43);
+    border: none;
+    padding: 9px 25px;
+    font-family: 'Merriweather', serif;
+}
+.slider button:hover {
+    background-color: rgb(71, 155, 30);
+}
+@media (min-width: 992px) {
+    .slider h1 {
+        font-size: 70px;
+        padding: 50px 0;
+    }
+    .slider h3 {
+        font-size: 48px;
+    }
+    .slider h6 {
+        font-size: 18px;
+    }
+    .slider p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .padding-top-bottom {
+        padding: 80px 0;
+    }
+    .slider h6 {
+        font-size: 24px;
+    }
+    .slider button {
+        font-size: 20px;
+        margin: 70px 0;
+    }
+}

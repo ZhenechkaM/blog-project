@@ -1,0 +1,77 @@
+.section3_part1 {
+    background-image: url('../../pictures/wood-1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 753px;
+}
+.section3_part2 {
+    background-color: rgb(83, 154, 54);
+    padding: 80px 50px 65px;
+}
+.section3_part2 h6 {
+    font-family: 'Lato', serif;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.section3_part2 h3 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 29px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.section3_part2 p {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: left;
+    padding: 0 20px;
+}
+.horizontal-line {
+    background-image: url('../../pictures/horizontal-line.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    width: 30%;
+    height: 3px;
+}
+.one {
+    background-image: url('../../pictures/one.png');
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 38px;
+}
+.two {
+    background-image: url('../../pictures/two.png');
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 38px;
+}
+.three {
+    background-image: url('../../pictures/three.png');
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 38px;
+}
+.section3_part2 button {
+    color: white;
+    background-color: #0f5f27;
+    border: none;
+    padding: 9px 25px;
+    margin: 30px 0;
+    font-family: 'Lato', serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+.section3_part2 button:hover {
+    background-color: #127731;
+}
+@media (min-width: 992px) {
+    .section3_part1 {
+        height: 738px;
+    }
+}
